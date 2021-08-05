@@ -8,7 +8,6 @@
 	
 .salebox-header{
 	text-align: center;
-	background: greenyellow;
 }
 
 .item-container {
@@ -18,7 +17,6 @@
   padding: 0.5rem 1rem;
   justify-content: center;
   border-radius: 5px;
-  background: indianred;
 }
 
 .sale-item {
@@ -26,30 +24,22 @@
   align-content: center;
   flex: 50%;
   margin: 0rem 0rem;
-  background: orangered;
 }
 
 .item-img {
   display: inline-block;
-  height: 4rem;
+  height: 3rem;
   padding: 0 1.25rem 0;
   margin-top: 10px;
-  background: red;
 }
 
 .item-label-quantity {
-	height: 4rem;
+	height: 3rem;
   white-space: nowrap;
-  background: green;
 }
 
 .item-name{
   display: inline;
-  background: lime;
-}
-
-.item-quantity{
-	background: yellow;
 }
 
 .cost-wrapper {
@@ -57,17 +47,32 @@
 }
 
 .box-cost {
-  font-size: smaller;
+  font-size: large;
   margin: 10px 10px;
   padding: 5px;
   width: 75%;
   border-radius: 5px;
   background-color: #F6F6F6;
-  font-size: large;
-} 
+}
 
 .moeda{
   vertical-align: -5px;
   height: 25px;
   width: 25px;
+}
+
+.quantidade{
+  box-sizing: border-box;
+	flex-wrap: wrap;
+  position: absolute;
+	background: rgba(239, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	max-width: 100%;
+	border-radius: 50%;
+	left: 32%;
+  top: 25%;
+	height: 2em;
+	width: 2em;
 }
