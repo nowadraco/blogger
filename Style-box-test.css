@@ -1,5 +1,5 @@
 .box-sales-container {
-
+width: 100%;
 }
 
 .box-container {
@@ -8,7 +8,6 @@
 	
 .salebox-header{
 	text-align: center;
-	background: blue;
 }
 
 .item-container {
