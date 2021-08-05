@@ -1,0 +1,58 @@
+.box-sales-container {
+
+}
+
+.box-container {
+  
+  }
+	
+.salebox-header{
+	text-align: center;
+	background: blue;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  border-radius: 5px;
+
+}
+
+.sale-item {
+	position: relative;
+  align-content: center;
+  flex: 50%;
+  margin: 0rem 0rem;
+}
+
+.item-img {
+  display: inline;
+  padding: 0 1.25rem 0;
+  margin-top: 10px;
+}
+
+.item-label-quantity {
+	height: 4rem;
+  white-space: nowrap;
+
+}
+
+.item-name{
+	
+}
+
+.item-quantity{
+	
+}
+
+.cost-wrapper {
+    margin-bottom: 25px;
+  }
+
+.box-cost {
+  font-size: smaller;
+
+} 
