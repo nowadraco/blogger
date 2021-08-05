@@ -30,18 +30,21 @@
 }
 
 .item-img {
+  display: inline-block;
+  height: 4rem;
   padding: 0 1.25rem 0;
   margin-top: 10px;
   background: red;
 }
 
 .item-label-quantity {
-	height: 3rem;
+	height: 4rem;
   white-space: nowrap;
   background: green;
 }
 
 .item-name{
+  display: inline;
   background: lime;
 }
 
