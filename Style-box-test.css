@@ -76,3 +76,43 @@
 	height: 2em;
 	width: 2em;
 }
+
+@media (max-width: 600px)
+{
+    .quantidade
+   {
+  box-sizing: border-box;
+	flex-wrap: wrap;
+  position: absolute;
+	background: rgba(239, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	max-width: 100%;
+	border-radius: 50%;
+	left: 22%;
+  top: 25%;
+	height: 2em;
+	width: 2em;
+   }
+}
+
+@media (max-width: 360px)
+{
+    .quantidade
+   {
+  box-sizing: border-box;
+	flex-wrap: wrap;
+  position: absolute;
+	background: rgba(239, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	max-width: 100%;
+	border-radius: 50%;
+	left: 12%;
+  top: 25%;
+	height: 2em;
+	width: 2em;
+   }
+}
