@@ -1,9 +1,90 @@
-.label-wrapper{
-  box-sizing: border-box; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 690px; 
-  position: relative; 
+.box-sales-container {
+  width: 100%;
+}
+
+.box-container {
+  display: inline;
+}
+	
+.salebox-header{
+	text-align: center;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.sale-item {
+	position: relative;
+  align-content: center;
+  flex: 50%;
+  margin: 0rem 0rem;
+}
+
+.item-img {
+  display: inline-block;
+  height: 3rem;
+  padding: 0 1.25rem 0;
+  margin-top: 10px;
+}
+
+.item-label-quantity {
+	height: 3rem;
+  white-space: nowrap;
+}
+
+.item-name{
+  display: inline;
+}
+
+.cost-wrapper {
+  margin-bottom: 25px;
+}
+
+.box-cost {
+  font-size: large;
+  margin: 10px 10px;
+  padding: 5px;
+  width: 75%;
+  border-radius: 5px;
+  background-color: #F6F6F6;
+}
+
+.moeda{
+  vertical-align: -5px;
+  height: 25px;
+  width: 25px;
+}
+
+.quantidade{
+  box-sizing: border-box;
+	flex-wrap: wrap;
+  position: absolute;
+	background: rgba(239, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	max-width: 100%;
+	border-radius: 50%;
+	left: 32%;
+  top: 25%;
+	height: 2em;
+	width: 2em;
+}
+
+  /* tabela css */
+  
+  .label-wrapper{
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 690px;
+  position: relative;
   color: rgb(33, 33, 33);
   font-size: 19px;
 }
@@ -36,7 +117,6 @@
   margin: auto;
   color: rgb(33, 33, 33);
   font-family: sans-serif;
-  width: 100%;
 }
 
 .theads{
@@ -60,7 +140,7 @@
 }
 
 .trs{
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .trs2{
@@ -70,7 +150,7 @@
 
 .tds{
   box-sizing: border-box;
-  border-bottom-style:solid;
+  border-bottom-style: solid;
   border-bottom-color: rgb(204, 204, 204);
   color: rgb(85, 85, 85);
   padding: 6px 8px;
@@ -96,7 +176,8 @@
   box-sizing: border-box;
   border-bottom-style: solid;
   border-bottom-color: rgb(204, 204, 204);
-  color: rgb(85, 85, 85);padding: 6px 8px;
+  color: rgb(85, 85, 85);
+	padding: 6px 8px;
 }
 
 .fonts{
