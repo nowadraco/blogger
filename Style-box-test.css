@@ -1,8 +1,8 @@
-.box-sales-container {
+.box-sales-conjunto {
   width: 100%;
 }
 
-.box-container {
+.box-conjuto {
   display: inline;
 }
 	
@@ -10,7 +10,7 @@
 	text-align: center;
 }
 
-.item-container {
+.item-conjunto {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -19,7 +19,7 @@
   border-radius: 5px;
 }
 
-.sale-item {
+.item-valor {
 	position: relative;
   align-content: center;
   flex: 50%;
@@ -33,20 +33,20 @@
   margin-top: 10px;
 }
 
-.item-label-quantity {
+.item-quantidade {
 	height: 3rem;
   white-space: nowrap;
 }
 
-.item-name{
+.item-nome{
   display: inline;
 }
 
-.cost-wrapper {
+.custo {
   margin-bottom: 25px;
 }
 
-.box-cost {
+.box-custo {
   font-size: large;
   margin: 10px 10px;
   padding: 5px;

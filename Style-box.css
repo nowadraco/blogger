@@ -1,9 +1,9 @@
-.box-sales-container {
+.box-sales-conjunto {
 	display: inline;
 
 }
 
-.box-container { 
+.box-conjuto { 
 	 display: inline;
 	 background: black;
   }
@@ -13,7 +13,7 @@
  background: #eeeeee;
 }
 
-.item-container {
+.item-conjunto {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -22,7 +22,7 @@
   background: blue;
 }
 
-.sale-item {
+.item-valor {
 	position: relative;
   align-content: center;
   margin: 0rem 0rem;
@@ -36,7 +36,7 @@
   background: blueviolet;
 }
 
-.item-label-quantity {
+.item-quantidade {
 	height: 3rem;
   white-space: nowrap;
   background: green;
@@ -45,7 +45,7 @@
   max-width: 150px;
 }
 
-.item-quantity{
+.item-quantidade{
   display: block;
   flex-wrap: wrap;
   position: absolute;
@@ -58,11 +58,11 @@
   left: 90px;
 }
 
-.cost-wrapper {
+.custo {
     margin-bottom: 10px;
   }
 
-.box-cost {
+.box-custo {
   font-size: smaller;
 }
 .box{
