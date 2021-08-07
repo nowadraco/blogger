@@ -9,13 +9,35 @@
 }
 
 .table-box-label{
-  box-sizing: border-box; border-radius: 5px; border-collapse: separate; padding: 8px 12px; font-size: 18px; background-color: rgb(238, 238, 238); width: 276px; margin-top: 50px; border-left: 5px solid rgb(224, 179, 134);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-collapse: separate;
+  padding: 8px 12px;
+  font-size: 18px;
+  background-color: rgb(238, 238, 238);
+  width: 276px;
+  margin-top: 50px;
+  border-left: 5px
+  solid rgb(224, 179, 134);
 }
 
 .imagem{
-  box-sizing: border-box; border-style: none; height: auto; max-width: 100%; position: absolute; bottom: 0px; right: 414px;
+  box-sizing: border-box;
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 414px;
 }
 
 .sale-breakdown{
-  font-size: 16px; background: rgb(255, 255, 255); width: 690px; border-collapse: collapse; margin: auto; color: rgb(33, 33, 33); font-family: lato, &quot;open sans&quot;, sans-serif;
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  width: 690px;
+  border-collapse: collapse;
+  margin: auto;
+  color: rgb(33, 33, 33);
+  font-family: sans-serif;
+  width: 100%;
 }
