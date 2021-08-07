@@ -1,0 +1,258 @@
+.box-sales-container {
+  width: 100%;
+}
+
+.box-container {
+  display: inline;
+}
+	
+.salebox-header{
+	text-align: center;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.sale-item {
+	position: relative;
+  align-content: center;
+  flex: 50%;
+  margin: 0rem 0rem;
+}
+
+.item-img {
+  display: inline-block;
+  height: 3rem;
+  padding: 0 1.25rem 0;
+  margin-top: 10px;
+}
+
+.item-label-quantity {
+	height: 3rem;
+  white-space: nowrap;
+}
+
+.item-name{
+  display: inline;
+}
+
+.cost-wrapper {
+  margin-bottom: 25px;
+}
+
+.box-cost {
+  font-size: large;
+  margin: 10px 10px;
+  padding: 5px;
+  width: 75%;
+  border-radius: 5px;
+  background-color: #F6F6F6;
+}
+
+.moeda{
+  vertical-align: -5px;
+  height: 25px;
+  width: 25px;
+}
+
+.quantidade{
+  box-sizing: border-box;
+	flex-wrap: wrap;
+  position: absolute;
+	background: rgba(239, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	max-width: 100%;
+	border-radius: 50%;
+	left: 32%;
+  top: 25%;
+	height: 2em;
+	width: 2em;
+}
+
+  /* tabela css */
+  
+  .label-wrapper{
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  width: 690px;
+  position: relative;
+  color: rgb(33, 33, 33);
+  font-size: 19px;
+}
+
+.table-box-label{
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-collapse: separate;
+  padding: 8px 12px;
+  font-size: 18px;
+  width: 276px;
+  margin-top: 50px;
+}
+
+.imagem{
+  box-sizing: border-box;
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 414px;
+}
+
+.sale-breakdown{
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  color: rgb(33, 33, 33);
+  font-family: sans-serif;
+}
+
+.theads{
+  box-sizing: border-box;
+}
+
+.col-labels{
+  box-sizing: border-box;
+  background-color: rgb(245, 245, 245);
+}
+
+.ths{
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(169, 169, 169);
+  padding: 10px 0px 10px 8px;
+}
+
+.tbodys{
+  box-sizing: border-box;
+}
+
+.trs{
+  box-sizing: border-box;
+}
+
+.trs2{
+  box-sizing: border-box;
+  border-bottom: 2px solid rgb(153, 153, 153);
+}
+
+.tds{
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(204, 204, 204);
+  color: rgb(85, 85, 85);
+  padding: 6px 8px;
+}
+
+.tds2{
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(204, 204, 204);
+  color: rgb(85, 85, 85);
+  padding: 6px 8px;
+  text-align: center;
+}
+
+.tds3{
+  box-sizing: border-box;
+  border-bottom: none;
+  color: rgb(85, 85, 85);
+  padding: 6px 8px;
+}
+
+.tds4{
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(204, 204, 204);
+  color: rgb(85, 85, 85);
+	padding: 6px 8px;
+}
+
+.fonts{
+  box-sizing: border-box;
+  vertical-align: inherit;
+}
+
+@media (max-width: 600px)
+{
+    .quantidade
+   {
+  box-sizing: border-box;
+	flex-wrap: wrap;
+  position: absolute;
+	background: rgba(239, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	max-width: 100%;
+	border-radius: 50%;
+	left: 22%;
+  top: 25%;
+	height: 2em;
+	width: 2em;
+   }
+}
+
+@media (max-width: 360px)
+{
+    .quantidade
+   {
+  box-sizing: border-box;
+	flex-wrap: wrap;
+  position: absolute;
+	background: rgba(239, 0, 0, 0.75);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	max-width: 100%;
+	border-radius: 50%;
+	left: 12%;
+  top: 25%;
+	height: 2em;
+	width: 2em;
+   }
+}
+
+@media (max-width: 600px)
+{
+.ths{
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(169, 169, 169);
+  padding: 10px 0px 10px 8px;
+	font-size: 12px;
+}
+ }
+ 
+ @media (max-width: 600px)
+{
+  .fonts{
+  box-sizing: border-box;
+  vertical-align: inherit;
+	font-size: 12px;
+}
+ }
+ 
+ @media (max-width: 600px)
+{
+  .tds{
+  box-sizing: border-box;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(204, 204, 204);
+  color: rgb(85, 85, 85);
+  padding: 6px 8px;
+	font-size: 12px;
+}
+ }
