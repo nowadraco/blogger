@@ -1,23 +1,18 @@
-.caixa-selvagem {
+.caixa-ditt {
   box-sizing: border-box;
-  display: inline-block;
+  display: inline;
   padding: 2px 5px 2rem;
-  width: 180px;
+  width: 320px;
   margin: 5px;
   vertical-align: top;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
+  background:red;
 }
 
-.selvagem-linha {
-  box-sizing: border-box;
-  white-space: nowrap;
-  display: flex;
-}
-
-.selvagem-nome {
+.ditr-nome {
   box-sizing: border-box;
   padding-left: 0px;
   padding-right: 0px;
@@ -29,22 +24,14 @@
   z-index: 1;
 }
 
-.dex-selvagem {
-  color: rgba(20, 20, 20, 0.9);
-  text-align: center;
-  font-size: 18px;
-  position: absolute;
-  left: 6.2em;
-  top: 2.3em;
-}
-
-.selvagem-borda {
+.ditt-borda {
   box-sizing: border-box;
   height: 115px;
+  width: 150px;
   position: relative;
 }
 
-.selvagem-imagem {
+.ditt-imagem {
   box-sizing: border-box;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -52,23 +39,14 @@
   border-bottom-left-radius: 25px;
   border: 3px solid rgba(147, 131, 187, 0.34);
   background-color: rgba(0,139,139,0.30);
+  width: 125px;
 }
 
-.selvagem {
+.disfarce {
   box-sizing: border-box;
   border-style: none;
   height: auto;
   max-width: 100%;
   margin-top: -43px;
   margin-bottom: -8px;
-}
-
-.shiny-selvagem {
-  box-sizing: border-box;
-  border-style: none;
-  height: 1.5em;
-  max-width: 100%;
-  position: absolute;
-  left: 1em;
-  top: 2.5em;
 }
