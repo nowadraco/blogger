@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Minha Página</title>
-    <script src="/blogger/itens de postagem para o blogger/arquivos  javascript/contador_regresivo.js"></script>
-  </head>
-  <body>
-    <h1>Contagem Regressiva</h1>
 
-    <script>
-      const firstEndDate = "2023-03-07T16:51:38"
-      const secondEndDate = "2023-03-07T16:51:50";
+<head>
+  <title>Minha Página</title>
+  <script src="/blogger/itens de postagem para o blogger/arquivos  javascript/contador_regresivo.js"></script>
+  <style>
+    .box-contador {
+      text-align: center;
+    }
 
-      // Chama a função countdown a cada segundo com as datas específicas para esta página
-      setInterval(() => {
-        countdown(firstEndDate, secondEndDate);
-      }, 1000);
-    </script>
-  </body>
+    .contador {
+      display: inline-block;
+      font-size: 1.5rem;
+      font-weight: bold;
+      background-color: #fff;
+      color: #333;
+      padding: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      margin-right: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box-contador">
+    <div class="contador">Contagem Regressiva</div>
+  </div>
+
+  <script>
+    const firstEndDate = "2023-03-18T13:59:59"
+    const secondEndDate = "2023-03-18T17:00:00";
+
+    // Chama a função countdown a cada segundo com as datas específicas para esta página
+    setInterval(() => {
+      countdown(firstEndDate, secondEndDate);
+    }, 1000);
+  </script>
+</body>
+
 </html>
