@@ -1,0 +1,22 @@
+Para adicionar mais um contador no código, você precisará definir uma nova data de término para o contador e um novo horário final para caso a data de término tenha passado. Em seguida, você precisará criar um novo elemento no HTML para exibir a contagem regressiva desse novo contador, atribuindo a ele um ID exclusivo.
+Depois disso, você pode modificar o código que chama a função de contagem regressiva para incluir o novo contador. Para fazer isso, adicione um novo conjunto de parâmetros na função setInterval que especifique a nova data final e o novo horário final para o novo contador, bem como o ID do elemento HTML que você criou para exibir a contagem regressiva desse novo contador.
+Por exemplo, suponha que você deseje adicionar um terceiro contador com uma data final de 11 de março de 2023 às 19:00 e um horário final de 19:30. Você poderia fazer o seguinte:
+Defina uma nova data final e um novo horário final:
+/
+const terceiraDataFinal = "2023-03-11T19:00:00";
+const terceiraDataFinalFinalizada = "2023-03-11T19:30:00";
+/
+Crie um novo elemento HTML com um ID exclusivo para exibir a contagem regressiva do terceiro contador:
+
+/
+<div id="contador3"></div>
+/
+Modifique o código que chama a função de contagem regressiva para incluir o terceiro contador:
+/
+setInterval(() => {
+  contagemRegressiva(primeiraDataFinal, primeiraDataFinalFinalizada, "#contador1");
+  contagemRegressiva(segundaDataFinal, segundaDataFinalFinalizada, "#contador2");
+  contagemRegressiva(terceiraDataFinal, terceiraDataFinalFinalizada, "#contador3");
+}, 1000);
+/
+Note que você precisa passar os novos parâmetros para a função contagemRegressiva() para o novo contador adicionado
