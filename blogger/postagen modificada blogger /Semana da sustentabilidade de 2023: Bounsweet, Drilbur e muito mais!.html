@@ -1,13 +1,4 @@
 <style>
-  .containerbloco {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
   li {
     list-style-type: none;
   }
@@ -48,6 +39,7 @@
   De quinta-feira, 20 de abril, às 10h, a quarta-feira, 26 de abril de 2023, às
   20h, horário local
 </p>
+<span></span><!--more-->
 <div class="containerbloco">
   <h2>Estreias de Pokémon</h2>
   <p>Bounsweet, o Pokémon Fruta, fará sua estreia no Pokémon GO!</p>
@@ -126,7 +118,7 @@
 </div>
 <br />
 <div class="containerbloco">
-  <h2>Encontros na natureza</h2>
+  <h2><img src="https://raw.githubusercontent.com/nowadraco/pokedragonshadow/main/assets/imagens/icones_preto/natureza.png" width="50" height="50" alt="natureza"> Encontros na natureza</h2>
   <p>Os seguintes Pokémon aparecerão com mais frequência na natureza.</p>
   <ul style="list-style-type: none">
     <div style="position: relative; display: inline-block">
@@ -376,7 +368,7 @@
       </li>
     </div>
   </ul>
-  <h2>Alguns Treinadores podem até encontrar o seguinte!</h2>
+  <h3>Alguns Treinadores podem até encontrar o seguinte!</h3>
   <ul style="list-style-type: none">
     <div style="position: relative; display: inline-block">
       <img
@@ -466,7 +458,7 @@
 </div>
 <br />
 <div class="containerbloco">
-  <h2>Ovos</h2>
+  <h2><img src="https://raw.githubusercontent.com/nowadraco/pokedragonshadow/main/assets/imagens/icones_preto/ovo.png" width="50" height="50" alt="ovo"> Ovos</h2>
   <p>Os seguintes Pokémon serão chocados em Ovos a 2 km durante o evento.</p>
   <ul style="list-style-type: none">
     <div style="position: relative; display: inline-block">
@@ -560,24 +552,24 @@
   <h2>Bônus do evento</h2>
   <ul>
     <li>
-      Se o nível de seu Pokémon for ultra companheiro ou superior, ele trará
+      <img src="https://raw.githubusercontent.com/nowadraco/pokedragonshadow/main/assets/imagens/icones_preto/presente.png" width="25" height="25" alt="presente">Se o nível de seu Pokémon for ultra companheiro ou superior, ele trará
       lembrancinhas com mais frequência.
     </li>
     <li>
-      Se o nível de seu Pokémon for grande companheiro ou superior, ele trará
+      <img src="https://raw.githubusercontent.com/nowadraco/pokedragonshadow/main/assets/imagens/icones_preto/presente.png" width="25" height="25" alt="presente">Se o nível de seu Pokémon for grande companheiro ou superior, ele trará
       presentes com embrulhos de folhas com mais frequência. Esses presentes
       conterão frutas e podem incluir até uma Fruta Caxí Prata!
     </li>
     <li>
-      Seu Pokémon companheiro acompanhará você no mapa por mais tempo depois de
+      <img src="https://raw.githubusercontent.com/nowadraco/pokedragonshadow/main/assets/imagens/icones_preto/nv_amizade.png" width="25" height="25" alt="coração">Seu Pokémon companheiro acompanhará você no mapa por mais tempo depois de
       ser alimentado.
     </li>
-    <li>1/2 da distância para ganhar corações com seu Pokémon companheiro.</li>
+    <li><img src="https://raw.githubusercontent.com/nowadraco/pokedragonshadow/main/assets/imagens/icones_preto/nv_amizade.png" width="25" height="25" alt="coração">1/2 da distância para ganhar corações com seu Pokémon companheiro.</li>
   </ul>
 </div>
 <br />
 <div class="containerbloco">
-  <h2>Pesquisa temporária</h2>
+  <h2><img src="https://raw.githubusercontent.com/nowadraco/pokedragonshadow/main/assets/imagens/icones_preto/pesquisa.png" width="50" height="50" alt="pesquisa"> Pesquisa temporária</h2>
   <p>
     A Pesquisa temporária com o tema da Semana da sustentabilidade estará
     disponível durante todo o evento!
@@ -712,6 +704,7 @@
           alt="estrela"
         />Se você tiver sorte, poderá encontrar um Brilhante!</p>
 </div>
+<br />
 <div class="containerbloco">
   <h2>Novos itens de avatar</h2>
   <p>Novos itens de avatar estarão disponíveis para compra!</p>
@@ -720,7 +713,8 @@
     <li>Chapéu de Bounsweet</li>
     <li>Camisa de Steenee</li>
     <li>Botas de Tsareena</li>
-    <div class="separator" style="clear: both; text-align: center;">
+  </ul>
+  <div class="separator" style="clear: both; text-align: center;">
       <a
         href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2clUFwufEykr6d7q3ZtbyBp_G_zwoUUmDAnTBtdSrEo8GAUJPUmfRGIXSr02Vant0h0-n19JFzYirvkbtCyDlZOUZ4eldTAubzq7RESXBcZL3mVTarnEeiMcj0M8YMQfRYG8gC0MJV740XMjpMB9HETROblBCr5i2g9Yeoy1yjeXuLWDDtUbaypqj/s1600/unnamed.jpg"
         style="margin-left: 1em; margin-right: 1em;"
@@ -751,5 +745,11 @@
         </picture>
       </a>
     </div>
-  </ul>
 </div>
+<script>
+  const firstEndDate = "2023-04-20T09:59:59";
+  const secondEndDate = "2023-04-26T19:59:59";
+  setInterval(() => {
+    countdown(firstEndDate, secondEndDate);
+  }, 1000);
+</script>
